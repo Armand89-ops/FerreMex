@@ -18,9 +18,9 @@ export class ConexionService {
     return this.datos;
   }
 
-  url='https://proyectoferremex.000webhostapp.com/php/';
+  //url='https://proyectoferremex.000webhostapp.com/php/';
   //urli='https://ferritomyx.000webhostapp.com/php/';
-  //url='http://localhost/php/';
+  url='http://localhost/php/';
   constructor(public http: HttpClient) { }
 
   registrar(usuario: any){
