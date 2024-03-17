@@ -20,7 +20,7 @@ export class ConexionService {
 
   url='https://proyectoferremex.000webhostapp.com/php/';
   //urli='https://ferritomyx.000webhostapp.com/php/';
-  //url='http://localhost/php/';
+  //='http://localhost/php/';
   constructor(public http: HttpClient) { }
 
   registrar(usuario: any){
